@@ -1,0 +1,83 @@
+.musics {
+  margin: 30px auto;
+}
+.containe {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* .containe img {
+  width: 100%;
+} */
+.containe p {
+  color: #fff;
+}
+.btn-primary {
+  outline: none !important;
+}
+.play {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  left: 35px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2692b7 !important;
+}
+.a {
+  height: 45px;
+  width: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  position: relative;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.aud b {
+  margin: 10px;
+}
+#plays {
+}
+
+@media (min-width: 740px) {
+  .containe {
+    flex-direction: row;
+  }
+  .imgContainer {
+    width: 471px;
+    height: 471px;
+    margin-bottom: 30px;
+  }
+  .containers {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: left !important;
+    flex-direction: column !important;
+    margin-left: 14px !important;
+    padding: 0px 0 0 20px;
+  }
+  .btn-danger {
+    width: 30%;
+  }
+}
